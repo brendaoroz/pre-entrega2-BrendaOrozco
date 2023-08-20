@@ -27,7 +27,7 @@
                 <!-- <span class="navbar-toggler-icon"></span> -->
                 <i class="fa-solid fa-bars-staggered fa-beat-fade"></i>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse d-flex justify-content-end"  id="collapsibleNavbar">
                 <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
@@ -39,7 +39,7 @@
                     <a class="nav-link" href="pages/productos.html">productos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/contacto">Contacto</a>
+                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="pages/trabaja.html">Trabaja</a>
@@ -49,17 +49,87 @@
             </div>
         </nav>
     <!--Fin Navbar-->
-<!--Inicio Main-->
-    <main class="p-5 rounded jumbotron">
-        <div class="distr">
-            <h1>Distribuidora <span>TOTIGIAN</span>
-            </h1>
-            <h2>Venta de articulos por mayor y menor</h2>
-            <a href="#" class=>Ver lista de precios</a>
+<!--Inicio carousel-->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="multimedia/articulos.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
         </div>
-    </main>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="multimedia/articulos.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="multimedia/articulos.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--Fin carousel-->
+<h1>hola <span></span></h1>
+<!--Inicio main-->
+<main>
+    <h2>Distribuidora totigian</h2>
+    <p>Distribuidora de alimentos y bebidas, por mayor y menor.</p>
+</main>
 <!--Fin main-->
-    <!--Inicio BS-->
+
+<!--Inicio form-->
+<div class="row">
+<div class="">
+    <h2>Suscríbete a nuestras ofertas y novedades</h2>
+    <div class="row">
+        <div class="col-md-6">
+          <input type="email" class="form-control" placeholder="name@example.com">
+        </div>
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Código postal">
+        </div>
+      </div>
+    <button type="button" class="btn">Enviar</button>
+</div>
+</div>
+<!--Fin form-->
+    <!--Inicio footer-->
+    <footer class="container-fluid">
+        <div class="redes">
+            <i class="fa-brands fa-facebook"> /totigian.distribuidora</i>
+            <i class="fa-brands fa-instagram"> @totigian.distr </i>
+            <i class="fa-brands fa-whatsapp"> +54 11 6554 5476</i>
+            <i class="fa-regular fa-envelope"> distribuidora.totigian@gmail.com</i>
+        </div>
+        <h3>Todos los derechos reservados por copyright.</h3>
+    </footer>
+    <!--Fin footer-->
+    <!--Inicio boton subir-->
+    <a href="#" class="subir">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <!--Fin boton subir-->
+<!--Inicio BS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 <!--Fin BS-->

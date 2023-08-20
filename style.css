@@ -7,7 +7,8 @@ font-family: 'Mate SC', serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Playball', cursive;
 font-family: 'Special Elite', cursive;
-font-family: 'Ysabeau Infant', sans-serif */
+font-family: 'Ysabeau Infant', sans-serif 
+font-family: 'Tilt Prism', cursive*/
 
 
 *{
@@ -42,50 +43,73 @@ nav span{
     font-family: 'Playball', cursive;
 }
 
-.jumbotron{
-    background-image: url(multimedia/articulos.jpg);
-    height: 400px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-}
 
-.distr{
-    height: 250px;
-    width: 50%;
-    float: left;
-    background-color: rgba(128, 128, 128, 0.507);
-    border: 3px solid #d63384c4;
-    border-radius: 10px;
+main{
+    height: 700px;
 }
-
 h1{
-    color: black;
-    text-shadow: 0 0 3px #d63384;
-    padding: 15px;
+    padding: 10px;
+    background-color: #d63384;
+    text-align: center;
+    margin-top: 5px;
 }
 
-h1 span{
-    font-family: 'Playball', cursive;
+.card{
+    margin-bottom: 15px;
+    border: 3px solid #d63384;
 }
 
-.distr h2{
-    padding: 8px;
-
-}
-
-.distr a{
+.btn{
     background-color: #d63384c4;
-    color: black;
-    text-decoration: none;
-    margin-bottom: 20px 30px;
-    padding:10px 20px;
-    border: 3px solid black;
-    border-radius: 10px;
 }
+
+.btn:hover{
+    background-color: #d63384;
+    border: 2px solid #d63384;
+}
+
+h3{
+    background-color: #d63384;
+    padding: 10px;
+    text-align: center;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.redes i{
+    color: #d63384;
+    padding: 5px;
+}
+
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: #d63384;
+    color: black;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 28px;
+    box-shadow: 0 0 5px;
+}
+
+/* Inicio pagina contacto */
+.par{
+    display: flex;
+    align-content: end;
+    text-align: end;
+}
+
+/* Fin pagina contacto */
+
 @media only screen and (min-width:0) and (max-width:576px) {
     .navbar-collapse{
-        background-color: rgba(231, 29, 29, 0.904);
+        background-color: #d63384;
         display: flex;
         justify-content: center !important;
     }
