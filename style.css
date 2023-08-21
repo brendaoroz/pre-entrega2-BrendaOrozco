@@ -43,10 +43,6 @@ nav span{
     font-family: 'Playball', cursive;
 }
 
-
-main{
-    height: 700px;
-}
 h1{
     padding: 10px;
     background-color: #d63384;
@@ -54,9 +50,64 @@ h1{
     margin-top: 5px;
 }
 
-.card{
-    margin-bottom: 15px;
-    border: 3px solid #d63384;
+h2{
+    text-align: center;
+}
+.contenedor{
+    display: grid;
+    border: 3px solid #000;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    padding: 20px;
+}
+
+.item{
+    
+    border: 3px solid red;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 5px #000;
+    /* display: flex; */
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.item1{
+    background-image: url(multimedia/logoarcor.jpg);
+    height: auto;
+    width: auto;
+}
+
+.item2{
+    background-image: url(multimedia/logococa.png);
+}
+
+.item3{
+    background-image: url(multimedia/logofeltfort.png);
+}
+
+.item4{
+    background-image: url(multimedia/logojorgito.jpeg);
+}
+
+.item5{
+    background-image: url(multimedia/logomassalin.jpg);
+}
+
+.item6{
+    background-image: url(multimedia/logomondelez.png);
+}
+
+.item7{
+    background-image: url(multimedia/logoparnor.png);
+}
+
+.item8{
+    background-image: url(multimedia/logopepsi.png);
+}
+
+.item9{
+    background-image: url(multimedia/logounilever.png);
 }
 
 .btn{
@@ -99,13 +150,38 @@ h3{
 }
 
 /* Inicio pagina contacto */
-.par{
-    display: flex;
-    align-content: end;
-    text-align: end;
+.nright{
+    align-items: center;
+    align-content: center;
 }
 
 /* Fin pagina contacto */
+
+/* Inicio página nosotros */
+.nos{
+    height: 800px;
+}
+
+/* Fin página nosotros */
+
+/* Inicio página productos */
+
+.card{
+    margin-bottom: 15px;
+    border: 3px solid #d63384;
+}
+
+/* Fin página productos */
+
+/* Inicio página trabaja */
+.trab{
+    height: 550px;
+    /* background-image: url(multimedia/logo_transparent.png); */
+    background-position: center;
+    background-size: cover;
+    /* filter: opacity(50%); */
+}
+/* Fin página trabaja */
 
 @media only screen and (min-width:0) and (max-width:576px) {
     .navbar-collapse{
