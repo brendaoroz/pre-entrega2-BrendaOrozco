@@ -53,33 +53,37 @@ h1{
 h2{
     text-align: center;
 }
-.contenedor{
+/* .contenedor{
     display: grid;
     border: 3px solid #000;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 300px);
     padding: 20px;
-}
+} */
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .item{
-    
-    border: 3px solid red;
+    height: 250px;
+    width: 250px;
+    border: 3px solid #d63384c4;
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 5px #000;
-    /* display: flex; */
     border-radius: 50%;
     padding: 20px;
+    margin-bottom: 15px;
 }
 
 .item1{
     background-image: url(multimedia/logoarcor.jpg);
-    height: auto;
-    width: auto;
 }
 
 .item2{
-    background-image: url(multimedia/logococa.png);
+    background-image: url(multimedia/logococa.jpg);
 }
 
 .item3{
