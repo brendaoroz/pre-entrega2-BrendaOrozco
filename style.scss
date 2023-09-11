@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=EB+Garamond:ital@1&family=Oswald:wght@300&display=swap');
+
+/* font-family: 'Arimo', sans-serif;
+font-family: 'Carter One', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Mate SC', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playball', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Ysabeau Infant', sans-serif 
+font-family: 'Tilt Prism', cursive*/
+
+$font1: 'Oswald', sans-serif;
+$font2: 'Playball', cursive;
+$color1: #D16BA5;
+$color2: #000;
+$color3: white;
+$color4: #86A8E7;
+$color5: #5FFBF1;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font1
+}
+
+.navbar{
+    background-color: $color1;
+    
+    height: 80px;
+    box-shadow: 0 0 5px $color2 ;
+}
+
+.navbar-brand{
+
+    img{
+    height: 60px;
+}
+}
+
+.nav-link{
+    color: $color2 !important;
+}
+
+a:hover{
+    color: $color3 !important;
+}
+
+nav{
+
+    span{
+    
+    font-family: $font2;
+}
+}
+
+.carousel-item{
+
+    img{
+    background-size: cover;
+    background-position: center;
+}
+}
+
+main{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+h1{
+    padding: 5px;
+    background-color: $color1;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h2{
+    text-align: center;
+    // background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    height: 250px;
+    width: 250px;
+    border: 3px solid $color4;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 8px $color5;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: all 0.9s;
+}
+
+.item:hover{
+    transform: scale(1.08);
+    
+}
+
+.item1{
+    background-image: url(multimedia/logoarcor.jpg);
+}
+
+.item2{
+    background-image: url(multimedia/logococa.jpg);
+}
+
+.item3{
+    background-image: url(multimedia/logofeltfort.png);
+}
+
+.item4{
+    background-image: url(multimedia/logojorgito.jpeg);
+}
+
+.item5{
+    background-image: url(multimedia/logomassalin.jpg);
+}
+
+.item6{
+    background-image: url(multimedia/logomondelez.png);
+}
+
+.item7{
+    background-image: url(multimedia/logoparnor.png);
+}
+
+.item8{
+    background-image: url(multimedia/logopepsi.png);
+}
+
+.item9{
+    background-image: url(multimedia/logounilever.png);
+}
+
+.btn{
+    background-color: $color5;
+}
+
+.btn:hover{
+    background-color: $color4;
+    border: 2px solid $color5;
+}
+
+h3{
+    background-color: $color1;
+    padding: 10px;
+    text-align: center;
+}
+.redes{
+
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    color: $color4;
+    i{
+    color: $color1;
+    padding: 5px;
+}
+}
+
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: $color1;
+    color: $color2;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 28px;
+    box-shadow: 0 0 5px;
+}
+
+/* Inicio pagina contacto */
+.nright{
+    align-items: center;
+    align-content: center;
+}
+
+/* Fin pagina contacto */
+
+/* Inicio página nosotros */
+.nos{
+    height: 800px;
+}
+
+/* Fin página nosotros */
+
+/* Inicio página productos */
+
+.card{
+    margin-bottom: 15px;
+    border: 3px solid $color4;
+    box-shadow: 0 0 5px $color5;
+}
+
+/* Fin página productos */
+
+/* Inicio página trabaja */
+.trab{
+    height: 550px;
+    /* background-image: url(multimedia/logo_transparent.png); */
+    background-position: center;
+    background-size: cover;
+    /* filter: opacity(50%); */
+}
+/* Fin página trabaja */
+
+@media only screen and (min-width:0) and (max-width:576px) {
+    .navbar-collapse{
+        background-color: $color1;
+        display: flex;
+        justify-content: center !important;
+    }
+}

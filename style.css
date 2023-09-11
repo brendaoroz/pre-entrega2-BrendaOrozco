@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo&family=EB+Garamond:ital@1&family=Oswald:wght@300&display=swap');
-
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=EB+Garamond:ital@1&family=Oswald:wght@300&display=swap");
 /* font-family: 'Arimo', sans-serif;
 font-family: 'Carter One', cursive;
 font-family: 'EB Garamond', serif;
@@ -9,191 +9,189 @@ font-family: 'Playball', cursive;
 font-family: 'Special Elite', cursive;
 font-family: 'Ysabeau Infant', sans-serif 
 font-family: 'Tilt Prism', cursive*/
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
 }
 
-.navbar{
-    background-color: #d63384;
-    
-    height: 80px;
-    box-shadow: 0 0 5px #000 ;
+.navbar {
+  background-color: #D16BA5;
+  height: 80px;
+  box-shadow: 0 0 5px #000;
 }
 
-.navbar-brand img{
-    height: 60px;
+.navbar-brand img {
+  height: 60px;
 }
 
-.nav-link{
-    color: black !important;
+.nav-link {
+  color: #000 !important;
 }
 
-a:hover{
-    color: white !important;
+a:hover {
+  color: white !important;
 }
 
-nav span{
-    
-    font-family: 'Playball', cursive;
+nav span {
+  font-family: "Playball", cursive;
 }
 
-.carousel-item img{
-    background-size: cover;
-    background-position: center;
+.carousel-item img {
+  background-size: cover;
+  background-position: center;
 }
 
-h1{
-    padding: 10px;
-    background-color: #d63384;
-    text-align: center;
-    margin-top: 5px;
+main {
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
-h2{
-    text-align: center;
+h1 {
+  padding: 5px;
+  background-color: #D16BA5;
+  text-align: center;
+  margin-top: 5px;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.item{
-    height: 250px;
-    width: 250px;
-    border: 3px solid #d63384c4;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 0 8px #000;
-    border-radius: 50%;
-    padding: 20px;
-    margin-bottom: 15px;
-    transition: all 0.9s;
+h2 {
+  text-align: center;
 }
 
-.item:hover{
-    transform: scale(1.08);
-    
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.item1{
-    background-image: url(multimedia/logoarcor.jpg);
+.item {
+  height: 250px;
+  width: 250px;
+  border: 3px solid #86A8E7;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 8px #5FFBF1;
+  border-radius: 50%;
+  padding: 20px;
+  margin-bottom: 15px;
+  transition: all 0.9s;
 }
 
-.item2{
-    background-image: url(multimedia/logococa.jpg);
+.item:hover {
+  transform: scale(1.08);
 }
 
-.item3{
-    background-image: url(multimedia/logofeltfort.png);
+.item1 {
+  background-image: url(multimedia/logoarcor.jpg);
 }
 
-.item4{
-    background-image: url(multimedia/logojorgito.jpeg);
+.item2 {
+  background-image: url(multimedia/logococa.jpg);
 }
 
-.item5{
-    background-image: url(multimedia/logomassalin.jpg);
+.item3 {
+  background-image: url(multimedia/logofeltfort.png);
 }
 
-.item6{
-    background-image: url(multimedia/logomondelez.png);
+.item4 {
+  background-image: url(multimedia/logojorgito.jpeg);
 }
 
-.item7{
-    background-image: url(multimedia/logoparnor.png);
+.item5 {
+  background-image: url(multimedia/logomassalin.jpg);
 }
 
-.item8{
-    background-image: url(multimedia/logopepsi.png);
+.item6 {
+  background-image: url(multimedia/logomondelez.png);
 }
 
-.item9{
-    background-image: url(multimedia/logounilever.png);
+.item7 {
+  background-image: url(multimedia/logoparnor.png);
 }
 
-.btn{
-    background-color: #d63384c4;
+.item8 {
+  background-image: url(multimedia/logopepsi.png);
 }
 
-.btn:hover{
-    background-color: #d63384;
-    border: 2px solid #d63384;
+.item9 {
+  background-image: url(multimedia/logounilever.png);
 }
 
-h3{
-    background-color: #d63384;
-    padding: 10px;
-    text-align: center;
-}
-.redes{
-    display: flex;
-    flex-direction: column;
-    text-align: end;
+.btn {
+  background-color: #5FFBF1;
 }
 
-.redes i{
-    color: #d63384;
-    padding: 5px;
+.btn:hover {
+  background-color: #86A8E7;
+  border: 2px solid #5FFBF1;
 }
 
-.subir{
-    height: 40px;
-    width: 40px;
-    background-color: #d63384;
-    color: black;
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    text-align: center;
-    line-height: 40px;
-    font-size: 28px;
-    box-shadow: 0 0 5px;
+h3 {
+  background-color: #D16BA5;
+  padding: 10px;
+  text-align: center;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  color: #86A8E7;
+}
+.redes i {
+  color: #D16BA5;
+  padding: 5px;
+}
+
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: #D16BA5;
+  color: #000;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 28px;
+  box-shadow: 0 0 5px;
 }
 
 /* Inicio pagina contacto */
-.nright{
-    align-items: center;
-    align-content: center;
+.nright {
+  align-items: center;
+  align-content: center;
 }
 
 /* Fin pagina contacto */
-
 /* Inicio página nosotros */
-.nos{
-    height: 800px;
+.nos {
+  height: 800px;
 }
 
 /* Fin página nosotros */
-
 /* Inicio página productos */
-
-.card{
-    margin-bottom: 15px;
-    border: 3px solid #d63384;
+.card {
+  margin-bottom: 15px;
+  border: 3px solid #86A8E7;
+  box-shadow: 0 0 5px #5FFBF1;
 }
 
 /* Fin página productos */
-
 /* Inicio página trabaja */
-.trab{
-    height: 550px;
-    /* background-image: url(multimedia/logo_transparent.png); */
-    background-position: center;
-    background-size: cover;
-    /* filter: opacity(50%); */
+.trab {
+  height: 550px;
+  /* background-image: url(multimedia/logo_transparent.png); */
+  background-position: center;
+  background-size: cover;
+  /* filter: opacity(50%); */
 }
-/* Fin página trabaja */
 
-@media only screen and (min-width:0) and (max-width:576px) {
-    .navbar-collapse{
-        background-color: #d63384;
-        display: flex;
-        justify-content: center !important;
-    }
-}
+/* Fin página trabaja */
+@media only screen and (min-width: 0) and (max-width: 576px) {
+  .navbar-collapse {
+    background-color: #D16BA5;
+    display: flex;
+    justify-content: center !important;
+  }
+}/*# sourceMappingURL=style.css.map */
