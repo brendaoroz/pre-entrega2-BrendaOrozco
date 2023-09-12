@@ -186,8 +186,35 @@ h3 {
   background-size: cover;
   /* filter: opacity(50%); */
 }
-
 /* Fin página trabaja */
+
+.row1,
+.row3 {
+  animation: mover-izquierda-derecha 2s 1;
+  animation-fill-mode: forwards;
+}
+.row2 {
+  animation: mover-derecha-izquierda 2s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mover-izquierda-derecha {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(5px);
+  }
+}
+
+@keyframes mover-derecha-izquierda {
+  from {
+    transform: translateX(150px);
+  }
+  to {
+    transform: translateX(5px);
+}
+}
 @media only screen and (min-width: 0) and (max-width: 576px) {
   .navbar-collapse {
     background-color: #D16BA5;
