@@ -12,11 +12,11 @@ font-family: 'Tilt Prism', cursive*/
 
 $font1: 'Oswald', sans-serif;
 $font2: 'Playball', cursive;
-$color1: #D16BA5;
+$color1: #F05682;
 $color2: #000;
 $color3: white;
-$color4: #86A8E7;
-$color5: #5FFBF1;
+$color4: #BC808C;
+$color5: #A67592;
 
 *{
     margin: 0;
@@ -64,7 +64,7 @@ nav{
 }
 
 main{
-    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-image: linear-gradient(to right top, #bc808ca9, #b77d8ead, #b27a8ea9, #ac77919d, #a6759285);
 }
 
 h1{
@@ -87,10 +87,10 @@ h2{
 .item{
     height: 250px;
     width: 250px;
-    border: 3px solid $color4;
+    border: 3px solid $color5;
     background-size: cover;
     background-position: center;
-    box-shadow: 0 0 8px $color5;
+    box-shadow: 2px 2px 8px $color2;
     border-radius: 50%;
     padding: 20px;
     margin-bottom: 15px;
