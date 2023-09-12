@@ -17,7 +17,7 @@ font-family: 'Tilt Prism', cursive*/
 }
 
 .navbar {
-  background-color: #F05682;
+  background-color: rgba(240, 86, 130, 0.7411764706);
   height: 80px;
   box-shadow: 0 0 5px #000;
 }
@@ -49,7 +49,7 @@ main {
 
 h1 {
   padding: 5px;
-  background-color: #F05682;
+  background-color: rgba(240, 86, 130, 0.7411764706);
   text-align: center;
   margin-top: 5px;
 }
@@ -127,26 +127,34 @@ h2 {
 }
 
 h3 {
-  background-color: #F05682;
+  background-color: rgba(240, 86, 130, 0.7411764706);
   padding: 10px;
   text-align: center;
 }
 
-.redes {
+h4 {
+  font-weight: bold;
+  padding: 5px;
+}
+
+footer {
+  background-image: linear-gradient(to left top, rgba(188, 128, 140, 0.662745098), rgba(183, 125, 142, 0.6784313725), rgba(178, 122, 142, 0.662745098), rgba(172, 119, 145, 0.6156862745), rgba(166, 117, 146, 0.5215686275));
+}
+footer .redes {
   display: flex;
   flex-direction: column;
   text-align: end;
   color: #BC808C;
 }
-.redes i {
-  color: #F05682;
+footer .redes i {
+  color: rgba(240, 86, 130, 0.7411764706);
   padding: 5px;
 }
 
 .subir {
   height: 40px;
   width: 40px;
-  background-color: #F05682;
+  background-color: rgba(240, 86, 130, 0.7411764706);
   color: #000;
   position: fixed;
   bottom: 40px;
@@ -169,12 +177,21 @@ h3 {
   height: 800px;
 }
 
+p {
+  font-size: 18px;
+}
+
 /* Fin página nosotros */
 /* Inicio página productos */
 .card {
   margin-bottom: 15px;
-  border: 3px solid #BC808C;
-  box-shadow: 0 0 5px #A67592;
+  border: 3px solid #A67592;
+  box-shadow: 2px 2px 5px #000;
+  transition: all 0.9s;
+}
+
+.card:hover {
+  transform: scale(1.03);
 }
 
 /* Fin página productos */
@@ -188,9 +205,36 @@ h3 {
 }
 
 /* Fin página trabaja */
+.row1,
+.row3 {
+  animation: mover-izquierda-derecha 3s 1;
+  animation-fill-mode: forwards;
+}
+
+.row2 {
+  animation: mover-derecha-izquierda 3s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mover-izquierda-derecha {
+  from {
+    transform: translateX(-400px);
+  }
+  to {
+    transform: translateX(5px);
+  }
+}
+@keyframes mover-derecha-izquierda {
+  from {
+    transform: translateX(400px);
+  }
+  to {
+    transform: translateX(5px);
+  }
+}
 @media only screen and (min-width: 0) and (max-width: 576px) {
   .navbar-collapse {
-    background-color: #F05682;
+    background-color: rgba(240, 86, 130, 0.7411764706);
     display: flex;
     justify-content: center !important;
   }
