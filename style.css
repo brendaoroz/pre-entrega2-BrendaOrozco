@@ -120,6 +120,9 @@ h2 {
 .btn {
   background-color: #A67592;
 }
+.btn .ind {
+  margin-top: 20px;
+}
 
 .btn:hover {
   background-color: #BC808C;
@@ -204,15 +207,23 @@ p {
   /* filter: opacity(50%); */
 }
 
+input {
+  margin: 5px;
+}
+
 /* Fin página trabaja */
-.row1,
-.row3 {
+.row1 {
   animation: mover-izquierda-derecha 3s 1;
   animation-fill-mode: forwards;
 }
 
 .row2 {
-  animation: mover-derecha-izquierda 3s 1;
+  animation: mover-derecha-izquierda 5s 1;
+  animation-fill-mode: forwards;
+}
+
+.row3 {
+  animation: mover-izquierda-derecha 7s 1;
   animation-fill-mode: forwards;
 }
 
@@ -234,9 +245,13 @@ p {
 }
 @media only screen and (min-width: 0) and (max-width: 576px) {
   .navbar-collapse {
-    background-color: rgba(240, 86, 130, 0.7411764706);
-    display: flex;
+    background-color: rgba(240, 86, 130, 0.7411764706) !important;
+    display: flex !important;
     justify-content: center !important;
+  }
 }
-}
-/*# sourceMappingURL=style.css.map */
+@media only screen and (min-width: 576px) and (max-width: 960px) {
+  .container {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

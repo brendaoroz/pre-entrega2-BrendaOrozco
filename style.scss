@@ -140,6 +140,10 @@ h2{
 
 .btn{
     background-color: $color5;
+
+.ind{
+    margin-top: 20px;
+}
 }
 
 .btn:hover{
@@ -231,17 +235,24 @@ p{
     background-size: cover;
     /* filter: opacity(50%); */
 }
+
+input{
+    margin: 5px;
+}
 /* Fin página trabaja */
 
-.row1,
-.row3 {
+.row1 {
 animation: mover-izquierda-derecha 3s 1;
 animation-fill-mode: forwards;
 }
 .row2 {
-animation: mover-derecha-izquierda 3s 1;
+animation: mover-derecha-izquierda 5s 1;
 animation-fill-mode: forwards;
 }
+.row3 {
+    animation: mover-izquierda-derecha 7s 1;
+    animation-fill-mode: forwards;
+    }
 
 @keyframes mover-izquierda-derecha {
 from {
@@ -263,8 +274,8 @@ to {
 
 @media only screen and (min-width:0) and (max-width:576px) {
     .navbar-collapse{
-        background-color: $color1;
-        display: flex;
+        background-color: $color1 !important;
+        display: flex !important;
         justify-content: center !important;
     }
 }
