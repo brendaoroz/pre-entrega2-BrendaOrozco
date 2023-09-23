@@ -117,6 +117,18 @@ h2 {
   background-image: url(multimedia/logounilever.png);
 }
 
+.item10 {
+  background-image: url(multimedia/baggio_logo.jpg);
+}
+
+.item11 {
+  background-image: url(multimedia/cinco_hispanos.jpg);
+}
+
+.item12 {
+  background-image: url(multimedia/higienol_logo.jpg);
+}
+
 .btn {
   background-color: #A67592;
 }
@@ -176,8 +188,8 @@ footer .redes i {
 
 /* Fin pagina contacto */
 /* Inicio página nosotros */
-.nos {
-  height: 800px;
+.text-nos {
+  margin-left: 15px;
 }
 
 p {
@@ -246,7 +258,7 @@ input {
 @media only screen and (min-width: 0) and (max-width: 576px) {
   .navbar-collapse {
     background-color: rgba(240, 86, 130, 0.7411764706) !important;
-    display: flex !important;
+    display: flex;
     justify-content: center !important;
   }
 }
